@@ -1,0 +1,117 @@
+/* Main Section - Clean, Modern Layout */
+.why-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 60px;
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    border: 3px solid #ff9900; /* ✅ Orange border - Change color as needed */
+  border-radius: 8px; /* ✅ Optional: Rounded edges */
+  padding: 10px 20px;
+}
+
+
+/* Left Column - Text */
+.why-text {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+/* Modern Headers */
+.why-text h2 {
+    font-size: 34px;
+    font-family: 'Inter', sans-serif; /* Modern, Minimal Font */
+    color: #ff9900; /* Vibrant Orange */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Body Text - Clean & Readable */
+.why-text p,
+.why-text li {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #222; /* Dark Gray for Modern Feel */
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/* Custom Bullet Points */
+.why-text ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.why-text li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+/* Sleek Bullet Point Icons */
+.why-text li::before {
+    content: "✔";
+    color: #ff9900;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Sleek Call-to-Action Button */
+.contact-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    background: #ff9900; /* Vibrant Orange */
+    color: white;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(255, 153, 0, 0.3);
+    letter-spacing: 0.5px;
+    border: none;
+}
+
+/* Modern Button Hover Effect */
+.contact-btn:hover {
+    background: #e67e00;
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 15px rgba(255, 153, 0, 0.5);
+}
+
+/* Right Column - Image */
+.why-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border: 2px solid #ff9900; /* Orange Border */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .why-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .why-image img {
+        max-width: 100%;
+    }
+
+    .why-text {
+        text-align: center;
+        padding: 15px;
+    }
+}

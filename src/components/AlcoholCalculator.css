@@ -1,0 +1,106 @@
+/* 🔹 Alcohol Calculator Page */
+.alcohol-calculator {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .calculator-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 🔹 Heading */
+  .calculator-container h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    color: #ff9900;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  /* 🔹 Subtitle */
+  .calculator-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* 🔹 Form */
+  .calculator-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* 🔹 Form Inputs */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .form-group input:focus {
+    border-color: #ff9900;
+    outline: none;
+  }
+  
+  /* 🔹 Calculate Button */
+  .btn-calculate {
+    background: #ff9900;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn-calculate:hover {
+    background: #cc7700;
+    transform: scale(1.05);
+  }
+  
+  /* 🔹 Results Section */
+  .results {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff8e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .results h3 {
+    font-size: 22px;
+    color: #ff9900;
+    margin-bottom: 10px;
+  }
+  
+  .results p {
+    font-size: 18px;
+    color: #333;
+  }
+    

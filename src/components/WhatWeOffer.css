@@ -1,0 +1,78 @@
+/* 🔹 Offer Section Styling */
+.offer-section {
+    background-color: #f8f9fa; /* Light background for a premium look */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  /* 🔹 Container */
+  .offer-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 🔹 Heading */
+  .offer-container h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    color: #ff9900; /* Orange accent */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  /* 🔹 Subtitle */
+  .offer-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* 🔹 Offer List */
+  .offer-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .offer-list li {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .offer-list li::before {
+    content: "✔";
+    color: #ff9900; /* Orange checkmarks */
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* 🔹 Booking Button */
+  .btn-booking {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #ff9900;
+    color: white;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn-booking:hover {
+    background: #cc7700;
+    transform: scale(1.05);
+  }
+  
