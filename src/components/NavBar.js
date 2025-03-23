@@ -2,6 +2,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // ✅ Import Link from React Router
 import "./NavBar.css";
+import { FaFacebook, FaInstagram } from "react-icons/fa"; 
 import { ReactComponent as CocktailIcon } from "../assets/images/reshot-icon-cocktail-27YL84MEBV.svg";
 
 export default function NavBar() {
@@ -22,6 +23,15 @@ export default function NavBar() {
             <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
             <Nav.Link as={Link} to="/services">Services</Nav.Link>
             <Nav.Link as={Link} to="/alcohol-calculator">Alcohol Calculator</Nav.Link>
+          </Nav>
+          {/* ✅ Social Media Icons as Nav Links */}
+          <Nav className="social-icons">
+            <Nav.Link href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="social-icon" />
+            </Nav.Link>
+            <Nav.Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="social-icon" />
+            </Nav.Link>
           </Nav>
           <button type="button" className="btn btn-outline-secondary">
             Request Booking

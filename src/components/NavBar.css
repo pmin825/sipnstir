@@ -150,6 +150,7 @@ nav.navbar {
   padding: 10px 25px;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
+  margin: 20px;
 }
 
 .btn-outline-secondary:hover {
@@ -177,4 +178,25 @@ nav.navbar {
   .navbar-nav a.nav-link {
     font-size: 18px;
   }
+
+/* 🔹 Social Icons as Nav Links */
+.social-icons {
+  display: flex;
+  gap: 15px; /* ✅ Adjust spacing */
+}
+
+.social-icons .nav-link {
+  color: #ffffff !important; /* ✅ Default icon color */
+  font-size: 32px; /* ✅ Increase icon size */
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.social-icons .nav-link:hover {
+  color: #ff9900 !important; /* ✅ Change color on hover */
+  transform: scale(1.2);
+}
+
+
+
+
 }

@@ -8,9 +8,7 @@
     max-width: 1200px;
     margin: auto;
     background: white;
-    border: 3px solid #ff9900; /* ✅ Orange border - Change color as needed */
-  border-radius: 8px; /* ✅ Optional: Rounded edges */
-  padding: 10px 20px;
+    padding: 10px 20px;
 }
 
 
