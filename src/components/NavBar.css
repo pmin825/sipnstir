@@ -13,6 +13,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* ✅ Prevents horizontal scrolling / cut-off */
+}
+
 /* 🔹 Fix Container to the Top */
 .container {
   width: 100%;
@@ -137,7 +143,9 @@ nav.navbar {
   background: rgba(0, 0, 0, 0.3);
   padding: 8px 15px;
   border-radius: 8px;
-  white-space: nowrap;
+  white-space: normal;
+  max-width: 100%;         /* Don’t exceed the screen */
+  box-sizing: border-box;
 }
 
 .nav-center-text {
