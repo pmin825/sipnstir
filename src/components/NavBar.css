@@ -140,6 +140,21 @@ nav.navbar {
   white-space: nowrap;
 }
 
+.nav-center-text {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .nav-center-text {
+    font-size: 1.2rem; /* scale text down for smaller screens */
+    padding: 0.5rem;
+    word-break: break-word; /* ensures text doesn’t overflow */
+  }
+}
+
 /* 🔹 Button Styles */
 .btn-outline-secondary {
   border: 2px solid #ff9900;
